@@ -27,11 +27,6 @@ spring:
       maxIdle: 10
       maxActive: 10
 
-# mongodb
-  data:
-    mongodb:
-      uri: mongodb://192.168.1.105:27017/dev
-
 #log
 logging:
   config: classpath:config/logback-spring.xml

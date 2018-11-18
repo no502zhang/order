@@ -2,10 +2,10 @@ server:
   port: 8010
   servlet:
     context-path: /order
+
 spring:
   application:
     name: order
-
 # 数据库
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
